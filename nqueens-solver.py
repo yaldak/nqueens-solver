@@ -12,15 +12,11 @@ import time
 def main():
     parser = argparse.ArgumentParser(
         description="""
-    Generate a large number of 8-puzzle and 8-queens instances and
+    Generate a large number of 8-queens instances and
     solve them (where possible) by hill climbing (steepest-ascent and
     first-choice variants), hill climbing with random restart, and
-    simulated annealing.  Measure the search cost and percentage of
-    solved problems and graph these against the optimal solution cost.
-
-    Comment your results.
-
-    TODO: describe how to define the board
+    simulated annealing.  Measures the search cost and percentage of
+    solved problems.
         """,
     )
 
@@ -38,13 +34,14 @@ def main():
     boards = parse_boardfile_lines(boardfile_lines)
 
     # ARTIFICIAL LIMIT
-    boards = boards[:3]
+    boards = boards[:100]
 
     print('name,board,solution,success,duration')
 
     evaluate_csv('RandomRestart', boards, nqueens_hillclimb_random_step, 500000)
     evaluate_csv('SimulatedAnnealing', boards, nqueens_hillclimb_simulatedannealing_step, 500000)
     evaluate_csv('SteepestAscent', boards, nqueens_hillclimb_steepestascent_step, 200)
+    evaluate_csv('FirstChoice', boards, nqueens_hillclimb_firstchoice_step, 200)
 
 def evaluate_csv(name, boards, function, max_steps):
     total_time_start = time.perf_counter()
@@ -58,7 +55,7 @@ def evaluate_csv(name, boards, function, max_steps):
 
         success = 'true' if solution is not None else 'false'
 
-        print(f"{name},{board},{solution},{success},{duration}")
+        print(f""{name}","{board}","{solution}",{success},{duration}")
 
     total_time_end = time.perf_counter()
 
@@ -83,6 +80,10 @@ def nqueens_hillclimb(board, function, max_steps):
 
         board = function(board)
 
+        # XXX: Do I need this?
+        if board is None:
+            return None
+
     return None
 
 def nqueens_fitness_max(board):
@@ -97,7 +98,7 @@ def nqueens_fitness_max(board):
                 # Collision diagonally
                 fitness += 1
 
-    # returns number of collisions
+    # Returns number of collisions
     return fitness
 
 def nqueens_hillclimb_random_step(board):
@@ -110,10 +111,27 @@ def nqueens_hillclimb_random_step(board):
 
             return board
 
-    # TODO: log error
+    # XXX: Log error here?
     return board
 
-# accept the random choice with certain probability
+def nqueens_hillclimb_firstchoice_step(board):
+    fitness_original = nqueens_fitness_max(board)
+
+    while True:
+        rand_row = random.randint(0, len(board) - 1)
+        rand_col = random.randint(0, len(board) - 1)
+
+        if board[rand_col] != rand_row:
+            board_tmp[rand_col] = rand_row
+
+            if nqueens_fitness_max(board_tmp) <= fitness_original:
+                return board_tmp
+
+            return board
+
+    # XXX: Log error here?
+    return board
+
 def nqueens_hillclimb_simulatedannealing_step(board):
     temperature = len(board) ** 2
     annealingRate = 0.95
@@ -142,10 +160,6 @@ def nqueens_hillclimb_simulatedannealing_step(board):
 
     return board
 
-# for each column, calculate the collision number
-# if the queen is moved to the other rows
-# find the smallest one and move to it.
-# steps = 200
 def nqueens_hillclimb_steepestascent_step(board):
     collisionNumBoard = {}
     smallestCollisionNum = nqueens_fitness_max(board)

@@ -12,15 +12,11 @@ import time
 def main():
     parser = argparse.ArgumentParser(
         description="""
-    Generate a large number of 8-puzzle and 8-queens instances and
+    Generate a large number of 8-puzzle instances and
     solve them (where possible) by hill climbing (steepest-ascent and
     first-choice variants), hill climbing with random restart, and
     simulated annealing.  Measure the search cost and percentage of
-    solved problems and graph these against the optimal solution cost.
-
-    Comment your results.
-
-    TODO: describe how to define the board
+    solved problems.
         """,
     )
 
@@ -38,13 +34,14 @@ def main():
     boards = parse_boardfile_lines(boardfile_lines)
 
     # ARTIFICIAL LIMIT
-    boards = boards[:10]
+    boards = boards[:100]
 
     print('name,board,solution,success,duration')
 
     evaluate_csv('RandomRestart', boards, npuzzle_hillclimb_random_step, 500000)
     evaluate_csv('SimulatedAnnealing', boards, npuzzle_hillclimb_simulatedannealing_step, 500000)
     evaluate_csv('SteepestAscent', boards, npuzzle_hillclimb_steepestascent_step, 200)
+    evaluate_csv('FirstChoice', boards, npuzzle_hillclimb_firstchoice_step, 200)
 
 def evaluate_csv(name, boards, function, max_steps):
     total_time_start = time.perf_counter()
@@ -58,7 +55,7 @@ def evaluate_csv(name, boards, function, max_steps):
 
         success = 'true' if solution is not None else 'false'
 
-        print(f"{name},{board},{solution},{success},{duration}")
+        print(f""{name}","{board}","{solution}",{success},{duration}")
 
     total_time_end = time.perf_counter()
 
@@ -83,6 +80,10 @@ def npuzzle_hillclimb(board, function, max_steps):
 
         board = function(board)
 
+        # XXX: Do I need this?
+        if board is None:
+            return None
+
     return None
 
 def manhattan_distance(board):
@@ -97,150 +98,212 @@ def npuzzle_hillclimb_random_step(board):
     for i in range(len(board)):
         if board[i] == 0:
             break
+
     while True:
         rand = random.randint(0, 4)
+
         if rand == 0:
             if i >= 3:
-                upBoard = board
-                upBoard[i] = board[i - 3]
-                upBoard[i - 3] = 0
-                return upBoard
+                board_new = list(board)
+                board_new[i] = board[i - 3]
+                board_new[i - 3] = 0
+                return board_new
         elif rand == 1:
             if i < 6:
-                downBoard = board
-                downBoard[i] = board[i + 3]
-                downBoard[i + 3] = 0
-                return downBoard
+                board_new = list(board)
+                board_new[i] = board[i + 3]
+                board_new[i + 3] = 0
+                return board_new
         elif rand == 2:
             if i % 3 != 0:
-                leftBoard = board
-                leftBoard[i] = board[i - 1]
-                leftBoard[i - 1] = 0
-                return leftBoard
+                board_new = list(board)
+                board_new[i] = board[i - 1]
+                board_new[i - 1] = 0
+                return board_new
         else:
             if (i + 1) % 3 != 0:
-                rightBoard = board
-                rightBoard[i] = board[i + 1]
-                rightBoard[i + 1] = 0
-                return rightBoard
+                board_new = list(board)
+                board_new[i] = board[i + 1]
+                board_new[i + 1] = 0
+                return board_new
 
     return board
 
-# accept the random choice with certain probability
-def npuzzle_hillclimb_simulatedannealing_step(board):
-    temperature = len(board)
-    annealingRate = 0.95
-
+def npuzzle_hillclimb_firstchoice_step(board):
     for i in range(len(board)):
         if board[i] == 0:
             break
     distance = manhattan_distance(board)
-    temperature = max(temperature * annealingRate, 0.02)
+
     while True:
-        randCase = random.randint(0,4)
-        if randCase == 0:
+        rand = random.randint(0, 4)
+
+        if rand == 0:
             if i >= 3:
-                upBoard = list(board)
-                upBoard[i] = board[i-3]
-                upBoard[i-3] = 0
-                if manhattan_distance(upBoard) < distance:
-                    return upBoard
+                board_new = list(board)
+                board_new[i] = board[i - 3]
+                board_new[i - 3] = 0
+
+                if manhattan_distance(board_new) <= distance:
+                    return board_new
                 else:
-                    deltaE = manhattan_distance(upBoard) - distance
-                    acceptProbability = min(math.exp(deltaE / temperature), 1)
-                    if random.random() <= acceptProbability:
-                        return upBoard
-        elif randCase == 1:
+                    return board
+        elif rand == 1:
             if i < 6:
-                downBoard = list(board)
-                downBoard[i] = board[i+3]
-                downBoard[i+3] = 0
-                if manhattan_distance(downBoard) < distance:
-                    return downBoard
+                board_new = list(board)
+                board_new[i] = board[i + 3]
+                board_new[i + 3] = 0
+
+                if manhattan_distance(board_new) <= distance:
+                    return board_new
                 else:
-                    deltaE = manhattan_distance(downBoard) - distance
-                    acceptProbability = min(math.exp(deltaE / temperature), 1)
-                    if random.random() <= acceptProbability:
-                        return downBoard
-        elif randCase == 2:
-            if i%3 != 0:
-                leftBoard = list(board)
-                leftBoard[i] = board[i-1]
-                leftBoard[i-1] = 0
-                if manhattan_distance(leftBoard) < distance:
-                    return leftBoard
+                    return board
+        elif rand == 2:
+            if i % 3 != 0:
+                board_new = list(board)
+                board_new[i] = board[i - 1]
+                board_new[i - 1] = 0
+
+                if manhattan_distance(board_new) <= distance:
+                    return board_new
                 else:
-                    deltaE = manhattan_distance(leftBoard) - distance
-                    acceptProbability = min(math.exp(deltaE / temperature), 1)
-                    if random.random() <= acceptProbability:
-                        return leftBoard
+                    return board
         else:
-            if (i+1)%3 != 0:
-                rightBoard = list(board)
-                rightBoard[i] = board[i+1]
-                rightBoard[i+1] = 0
-                if manhattan_distance(rightBoard) < distance:
-                    return rightBoard
+            if (i + 1) % 3 != 0:
+                board_new = list(board)
+                board_new[i] = board[i + 1]
+                board_new[i + 1] = 0
+
+                if manhattan_distance(board_new) <= distance:
+                    return board_new
                 else:
-                    deltaE = manhattan_distance(rightBoard) - distance
-                    acceptProbability = min(math.exp(deltaE / temperature), 1)
-                    if random.random() <= acceptProbability:
-                        return rightBoard
+                    return board
+    return board
+
+def npuzzle_hillclimb_simulatedannealing_step(board):
+    for i in range(len(board)):
+        if board[i] == 0:
+            break
+
+    annealing_rate = 0.95
+    distance = manhattan_distance(board)
+    temperature = max(len(board) * annealing_rate, 0.02)
+
+    while True:
+        rand = random.randint(0, 4)
+
+        if rand == 0:
+            if i >= 3:
+                board_new = list(board)
+                board_new[i] = board[i - 3]
+                board_new[i - 3] = 0
+
+                if manhattan_distance(board_new) < distance:
+                    return board_new
+                else:
+                    delta = manhattan_distance(board_new) - distance
+                    probability = min(math.exp(delta / temperature), 1)
+
+                    if random.random() <= probability:
+                        return board_new
+        elif rand == 1:
+            if i < 6:
+                board_new = list(board)
+                board_new[i] = board[i + 3]
+                board_new[i + 3] = 0
+
+                if manhattan_distance(board_new) < distance:
+                    return board_new
+                else:
+                    delta = manhattan_distance(board_new) - distance
+                    probability = min(math.exp(delta / temperature), 1)
+
+                    if random.random() <= probability:
+                        return board_new
+        elif rand == 2:
+            if i % 3 != 0:
+                board_new = list(board)
+                board_new[i] = board[i - 1]
+                board_new[i - 1] = 0
+
+                if manhattan_distance(board_new) < distance:
+                    return board_new
+                else:
+                    delta = manhattan_distance(board_new) - distance
+                    probability = min(math.exp(delta / temperature), 1)
+
+                    if random.random() <= probability:
+                        return board_new
+        else:
+            if (i + 1) % 3 != 0:
+                board_new = list(board)
+                board_new[i] = board[i + 1]
+                board_new[i + 1] = 0
+
+                if manhattan_distance(board_new) < distance:
+                    return board_new
+                else:
+                    delta = manhattan_distance(board_new) - distance
+                    probability = min(math.exp(delta / temperature), 1)
+
+                    if random.random() <= probability:
+                        return board_new
 
     return board
 
-# for each column, calculate the collision number
-# if the queen is moved to the other rows
-# find the smallest one and move to it.
 def npuzzle_hillclimb_steepestascent_step(board):
     for i in range(len(board)):
         if board[i] == 0:
             break
-    distanceBoard = {}
+
+    board_distance = {}
+
     if i >= 3:
-        upBoard = list(board)
-        upBoard[i] = board[i-3]
-        upBoard[i-3] = 0
-        distanceBoard[i-3] = manhattan_distance(upBoard)
+        board_new = list(board)
+        board_new[i] = board[i - 3]
+        board_new[i - 3] = 0
+
+        board_distance[i - 3] = manhattan_distance(board_new)
     if i < 6:
-        downBoard = list(board)
-        downBoard[i] = board[i+3]
-        downBoard[i+3] = 0
-        distanceBoard[i+3] = manhattan_distance(downBoard)
-    if i%3 != 0:
-        leftBoard = list(board)
-        leftBoard[i] = board[i-1]
-        leftBoard[i-1] = 0
-        distanceBoard[i-1] = manhattan_distance(leftBoard)
-    if (i+1)%3 != 0:
-        rightBoard = list(board)
-        rightBoard[i] = board[i+1]
-        rightBoard[i+1] = 0
-        distanceBoard[i+1] = manhattan_distance(rightBoard)
+        board_new = list(board)
+        board_new[i] = board[i + 3]
+        board_new[i + 3] = 0
+
+        board_distance[i + 3] = manhattan_distance(board_new)
+    if i % 3 != 0:
+        board_new = list(board)
+        board_new[i] = board[i - 1]
+        board_new[i - 1] = 0
+
+        board_distance[i - 1] = manhattan_distance(board_new)
+    if (i + 1) % 3 != 0:
+        board_new = list(board)
+        board_new[i] = board[i + 1]
+        board_new[i + 1] = 0
+
+        board_distance[i + 1] = manhattan_distance(board_new)
 
     shortestDistance = manhattan_distance(board)
-    for point,value in distanceBoard.iteritems():
+    for point, value in board_distance.items():
         # "<=" means "not worse than" situation
         # plain
         if value <= shortestDistance:
             shortestDistance = value
 
     shortestDistancePoints = []
-    for point,value in distanceBoard.iteritems():
+    for point, value in board_distance.items():
         if value == shortestDistance:
             shortestDistancePoints.append(point)
 
     # can not find a steeper move
     # we have come to the peek(local optimization)
     if len(shortestDistancePoints) == 0:
-        # print "local optimization"
-        global FAILED
-        FAILED = True
-        return board
+        return None
 
     random.shuffle(shortestDistancePoints)
     board[i] = board[shortestDistancePoints[0]]
     board[shortestDistancePoints[0]]= 0
+
     return board
 
 if __name__ == '__main__':

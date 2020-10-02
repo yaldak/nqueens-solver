@@ -1,0 +1,401 @@
+name,board,solution,success,duration
+RandomRestart,"[2, 3, 5, 4, 0, 6, 1, 7, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.825102524
+RandomRestart,"[8, 2, 3, 7, 0, 4, 6, 1, 5]",None,false,2.95229959
+RandomRestart,"[0, 6, 1, 2, 8, 7, 4, 5, 3]",None,false,2.9142019140000004
+RandomRestart,"[3, 8, 2, 7, 4, 6, 1, 5, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.0935319200000002
+RandomRestart,"[1, 2, 0, 3, 4, 7, 5, 6, 8]",None,false,2.988414764
+RandomRestart,"[4, 2, 8, 5, 0, 7, 1, 3, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.21399522000000104
+RandomRestart,"[4, 2, 0, 8, 1, 5, 7, 3, 6]",None,false,2.957779534
+RandomRestart,"[6, 2, 5, 3, 7, 1, 4, 8, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.350352093999998
+RandomRestart,"[7, 8, 5, 4, 0, 1, 6, 3, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.9042698710000003
+RandomRestart,"[4, 6, 5, 1, 0, 3, 7, 2, 8]",None,false,3.269001342000003
+RandomRestart,"[0, 6, 8, 2, 4, 7, 5, 3, 1]",None,false,3.471337194
+RandomRestart,"[4, 1, 6, 5, 2, 3, 7, 8, 0]",None,false,3.4532883250000026
+RandomRestart,"[7, 1, 3, 5, 0, 2, 4, 8, 6]",None,false,3.3495957029999985
+RandomRestart,"[8, 6, 0, 4, 7, 3, 2, 1, 5]",None,false,3.4242754209999973
+RandomRestart,"[0, 3, 5, 7, 1, 4, 2, 6, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.5842810990000018
+RandomRestart,"[4, 2, 6, 8, 5, 7, 3, 1, 0]",None,false,3.5902882020000035
+RandomRestart,"[4, 3, 0, 8, 5, 6, 2, 7, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.5801173389999974
+RandomRestart,"[3, 8, 6, 4, 5, 7, 0, 1, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.33969088300000294
+RandomRestart,"[8, 3, 0, 6, 4, 1, 2, 7, 5]",None,false,3.3556673779999997
+RandomRestart,"[5, 8, 7, 2, 0, 6, 3, 1, 4]",None,false,3.406479434000005
+RandomRestart,"[5, 7, 0, 6, 2, 8, 3, 1, 4]",None,false,3.3280167610000007
+RandomRestart,"[7, 8, 3, 4, 0, 6, 2, 1, 5]",None,false,3.1524497449999984
+RandomRestart,"[0, 1, 4, 2, 6, 5, 8, 7, 3]",None,false,3.0419382350000035
+RandomRestart,"[8, 2, 0, 3, 4, 1, 7, 5, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.1471845439999981
+RandomRestart,"[1, 5, 2, 3, 7, 4, 8, 6, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.18292090199999933
+RandomRestart,"[5, 3, 6, 8, 1, 2, 7, 4, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.118049592999995
+RandomRestart,"[6, 4, 0, 7, 8, 5, 2, 1, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.162117719000001
+RandomRestart,"[3, 2, 4, 6, 0, 1, 7, 8, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.08035398599999866
+RandomRestart,"[4, 6, 8, 2, 7, 5, 0, 1, 3]",None,false,3.487926449000007
+RandomRestart,"[0, 5, 4, 2, 6, 3, 7, 1, 8]",None,false,3.384372552000002
+RandomRestart,"[7, 5, 4, 2, 0, 8, 3, 1, 6]",None,false,3.4266542709999896
+RandomRestart,"[0, 7, 3, 4, 1, 2, 8, 5, 6]",None,false,3.142657219
+RandomRestart,"[1, 7, 3, 6, 0, 5, 4, 2, 8]",None,false,3.4066173069999905
+RandomRestart,"[6, 4, 1, 3, 5, 8, 0, 2, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.073088842000004
+RandomRestart,"[4, 5, 0, 1, 3, 6, 8, 2, 7]",None,false,3.031506730000004
+RandomRestart,"[8, 2, 7, 1, 0, 5, 3, 6, 4]",None,false,3.27822839400001
+RandomRestart,"[1, 5, 8, 2, 6, 3, 4, 7, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.0774264369999997
+RandomRestart,"[3, 5, 8, 7, 0, 2, 4, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.2115443800000065
+RandomRestart,"[6, 1, 0, 5, 3, 4, 7, 8, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.1760224700000066
+RandomRestart,"[2, 8, 5, 7, 0, 6, 1, 4, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.0480984940000013
+RandomRestart,"[7, 3, 0, 6, 4, 1, 5, 8, 2]",None,false,3.061925534000011
+RandomRestart,"[7, 3, 5, 4, 2, 8, 0, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.47745132100000376
+RandomRestart,"[4, 8, 0, 3, 7, 5, 1, 6, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.032810025999993
+RandomRestart,"[2, 1, 6, 4, 0, 3, 7, 5, 8]",None,false,3.420392538999991
+RandomRestart,"[3, 4, 6, 5, 8, 2, 0, 7, 1]",None,false,3.201929829000008
+RandomRestart,"[1, 2, 4, 8, 0, 6, 5, 3, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.422438609000011
+RandomRestart,"[3, 4, 0, 5, 8, 2, 1, 7, 6]",None,false,3.1397920819999996
+RandomRestart,"[6, 4, 5, 1, 0, 7, 8, 3, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.09506694299999197
+RandomRestart,"[0, 3, 4, 5, 1, 2, 7, 8, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.2364217490000016
+RandomRestart,"[8, 6, 4, 5, 0, 1, 2, 3, 7]",None,false,3.071355247999989
+RandomRestart,"[4, 8, 0, 5, 7, 6, 3, 2, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.2860845989999916
+RandomRestart,"[8, 6, 7, 5, 0, 4, 3, 1, 2]",None,false,2.9579265109999966
+RandomRestart,"[0, 1, 7, 6, 4, 8, 2, 3, 5]",None,false,3.1495396330000034
+RandomRestart,"[2, 6, 4, 1, 0, 8, 5, 7, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.4917856489999934
+RandomRestart,"[3, 5, 4, 1, 6, 7, 0, 8, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.2493416869999976
+RandomRestart,"[4, 3, 0, 5, 8, 2, 6, 7, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.0016392990000043
+RandomRestart,"[1, 2, 5, 4, 8, 7, 3, 6, 0]",None,false,2.9968054089999896
+RandomRestart,"[4, 7, 2, 8, 0, 6, 5, 1, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.45382901600001446
+RandomRestart,"[0, 6, 1, 2, 5, 3, 4, 8, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.9357850540000072
+RandomRestart,"[2, 4, 0, 5, 6, 3, 8, 1, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.9509568949999903
+RandomRestart,"[1, 3, 8, 7, 5, 4, 6, 2, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.583495825
+RandomRestart,"[7, 2, 1, 3, 8, 5, 0, 6, 4]",None,false,3.0051682780000135
+RandomRestart,"[6, 2, 5, 1, 7, 4, 3, 8, 0]",None,false,2.958561163999974
+RandomRestart,"[1, 3, 2, 6, 7, 8, 0, 5, 4]",None,false,2.983251722999995
+RandomRestart,"[6, 2, 7, 4, 3, 1, 8, 5, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.29901150599999937
+RandomRestart,"[2, 6, 3, 7, 5, 1, 8, 4, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.6945075739999993
+RandomRestart,"[4, 3, 5, 7, 8, 2, 0, 1, 6]",None,false,2.980316627999997
+RandomRestart,"[0, 7, 8, 3, 5, 2, 4, 6, 1]",None,false,2.9525838120000003
+RandomRestart,"[8, 2, 0, 3, 7, 1, 5, 4, 6]",None,false,2.9352513960000124
+RandomRestart,"[2, 5, 0, 1, 8, 6, 4, 7, 3]",None,false,3.062810044999992
+RandomRestart,"[5, 2, 1, 7, 6, 3, 0, 4, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.9456623200000251
+RandomRestart,"[3, 8, 0, 2, 7, 4, 1, 5, 6]",None,false,3.1734341359999974
+RandomRestart,"[8, 3, 0, 1, 6, 5, 4, 7, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.6717414489999953
+RandomRestart,"[1, 7, 6, 3, 0, 8, 2, 5, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.31092445499999144
+RandomRestart,"[8, 1, 7, 4, 2, 5, 6, 3, 0]",None,false,3.205710259
+RandomRestart,"[2, 7, 8, 4, 0, 5, 3, 1, 6]",None,false,3.184379445000019
+RandomRestart,"[1, 8, 0, 7, 4, 3, 2, 5, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.7716026740000075
+RandomRestart,"[2, 7, 6, 3, 5, 4, 1, 8, 0]",None,false,3.1534923950000007
+RandomRestart,"[8, 3, 6, 1, 0, 4, 7, 2, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.32073777699997663
+RandomRestart,"[8, 1, 3, 6, 0, 4, 5, 7, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.5414987329999974
+RandomRestart,"[8, 6, 2, 3, 5, 1, 0, 4, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.3001495929999862
+RandomRestart,"[8, 4, 0, 1, 2, 5, 6, 3, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.3004382869999915
+RandomRestart,"[1, 3, 0, 6, 8, 2, 4, 5, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.3930142819999958
+RandomRestart,"[8, 4, 1, 5, 3, 7, 6, 2, 0]",None,false,3.1478905529999963
+RandomRestart,"[0, 8, 3, 4, 7, 5, 2, 1, 6]",None,false,3.1131559469999956
+RandomRestart,"[0, 1, 3, 6, 5, 7, 8, 2, 4]",None,false,3.000737934
+RandomRestart,"[2, 8, 3, 4, 0, 7, 5, 6, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.927218436000004
+RandomRestart,"[0, 3, 8, 4, 2, 5, 7, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.3433973869999818
+RandomRestart,"[2, 8, 6, 7, 0, 3, 5, 1, 4]",None,false,3.181321416000003
+RandomRestart,"[0, 1, 4, 7, 5, 6, 2, 3, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.280625404999995
+RandomRestart,"[6, 8, 3, 2, 5, 1, 0, 4, 7]",None,false,3.102008748000003
+RandomRestart,"[5, 1, 0, 3, 8, 6, 2, 7, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.65941279499998
+RandomRestart,"[2, 6, 4, 7, 0, 5, 3, 8, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.9088667549999911
+RandomRestart,"[2, 3, 1, 7, 0, 5, 4, 6, 8]",None,false,3.1093617140000163
+RandomRestart,"[5, 2, 6, 7, 3, 1, 4, 8, 0]",None,false,3.0688671949999957
+RandomRestart,"[8, 7, 3, 2, 1, 5, 6, 4, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.42164296599997897
+RandomRestart,"[3, 4, 8, 2, 0, 7, 6, 5, 1]",None,false,3.152752743999997
+RandomRestart,"[4, 1, 3, 2, 6, 7, 0, 5, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.744995340999992
+RandomRestart,"[5, 3, 0, 4, 1, 2, 7, 8, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.5733462219999979
+RandomRestart,"[3, 1, 0, 2, 4, 8, 6, 5, 7]",None,false,3.179864622999986
+SimulatedAnnealing,"[2, 3, 5, 4, 0, 6, 1, 7, 8]",None,false,7.794389303000003
+SimulatedAnnealing,"[8, 2, 3, 7, 0, 4, 6, 1, 5]",None,false,7.733108012000002
+SimulatedAnnealing,"[0, 6, 1, 2, 8, 7, 4, 5, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,5.896930036000015
+SimulatedAnnealing,"[3, 8, 2, 7, 4, 6, 1, 5, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.3206912459999955
+SimulatedAnnealing,"[1, 2, 0, 3, 4, 7, 5, 6, 8]",None,false,8.363433251999993
+SimulatedAnnealing,"[4, 2, 8, 5, 0, 7, 1, 3, 6]",None,false,8.239073670999971
+SimulatedAnnealing,"[4, 2, 0, 8, 1, 5, 7, 3, 6]",None,false,8.129972057000032
+SimulatedAnnealing,"[6, 2, 5, 3, 7, 1, 4, 8, 0]",None,false,7.509198975999993
+SimulatedAnnealing,"[7, 8, 5, 4, 0, 1, 6, 3, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.030763530999991
+SimulatedAnnealing,"[4, 6, 5, 1, 0, 3, 7, 2, 8]",None,false,7.453814921000003
+SimulatedAnnealing,"[0, 6, 8, 2, 4, 7, 5, 3, 1]",None,false,7.461318330999973
+SimulatedAnnealing,"[4, 1, 6, 5, 2, 3, 7, 8, 0]",None,false,7.693648757000005
+SimulatedAnnealing,"[7, 1, 3, 5, 0, 2, 4, 8, 6]",None,false,7.729725786000017
+SimulatedAnnealing,"[8, 6, 0, 4, 7, 3, 2, 1, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.4909811879999779
+SimulatedAnnealing,"[0, 3, 5, 7, 1, 4, 2, 6, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,6.015263049999987
+SimulatedAnnealing,"[4, 2, 6, 8, 5, 7, 3, 1, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.631277065000006
+SimulatedAnnealing,"[4, 3, 0, 8, 5, 6, 2, 7, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.8577837099999783
+SimulatedAnnealing,"[3, 8, 6, 4, 5, 7, 0, 1, 2]",None,false,7.627939130999948
+SimulatedAnnealing,"[8, 3, 0, 6, 4, 1, 2, 7, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.206503830000031
+SimulatedAnnealing,"[5, 8, 7, 2, 0, 6, 3, 1, 4]",None,false,7.753049651000026
+SimulatedAnnealing,"[5, 7, 0, 6, 2, 8, 3, 1, 4]",None,false,7.700095744999999
+SimulatedAnnealing,"[7, 8, 3, 4, 0, 6, 2, 1, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.782213565999996
+SimulatedAnnealing,"[0, 1, 4, 2, 6, 5, 8, 7, 3]",None,false,7.3715143160000025
+SimulatedAnnealing,"[8, 2, 0, 3, 4, 1, 7, 5, 6]",None,false,7.681728299000042
+SimulatedAnnealing,"[1, 5, 2, 3, 7, 4, 8, 6, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.345740123999974
+SimulatedAnnealing,"[5, 3, 6, 8, 1, 2, 7, 4, 0]",None,false,7.855868047999991
+SimulatedAnnealing,"[6, 4, 0, 7, 8, 5, 2, 1, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.2805814420000274
+SimulatedAnnealing,"[3, 2, 4, 6, 0, 1, 7, 8, 5]",None,false,7.483629515000018
+SimulatedAnnealing,"[4, 6, 8, 2, 7, 5, 0, 1, 3]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.444847867000021
+SimulatedAnnealing,"[0, 5, 4, 2, 6, 3, 7, 1, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,5.2824269349999895
+SimulatedAnnealing,"[7, 5, 4, 2, 0, 8, 3, 1, 6]",None,false,8.366422720999992
+SimulatedAnnealing,"[0, 7, 3, 4, 1, 2, 8, 5, 6]",None,false,7.970641287000035
+SimulatedAnnealing,"[1, 7, 3, 6, 0, 5, 4, 2, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.0957062950000136
+SimulatedAnnealing,"[6, 4, 1, 3, 5, 8, 0, 2, 7]",None,false,8.171168691000048
+SimulatedAnnealing,"[4, 5, 0, 1, 3, 6, 8, 2, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.3254382910000118
+SimulatedAnnealing,"[8, 2, 7, 1, 0, 5, 3, 6, 4]",None,false,7.985716029999992
+SimulatedAnnealing,"[1, 5, 8, 2, 6, 3, 4, 7, 0]",None,false,8.412906275000012
+SimulatedAnnealing,"[3, 5, 8, 7, 0, 2, 4, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.9795547769999757
+SimulatedAnnealing,"[6, 1, 0, 5, 3, 4, 7, 8, 2]",None,false,8.43622454399997
+SimulatedAnnealing,"[2, 8, 5, 7, 0, 6, 1, 4, 3]",None,false,8.300774425999975
+SimulatedAnnealing,"[7, 3, 0, 6, 4, 1, 5, 8, 2]",None,false,8.303212245999987
+SimulatedAnnealing,"[7, 3, 5, 4, 2, 8, 0, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.3597141859999624
+SimulatedAnnealing,"[4, 8, 0, 3, 7, 5, 1, 6, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,6.506140879000043
+SimulatedAnnealing,"[2, 1, 6, 4, 0, 3, 7, 5, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.7174550590000308
+SimulatedAnnealing,"[3, 4, 6, 5, 8, 2, 0, 7, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.9632686119999789
+SimulatedAnnealing,"[1, 2, 4, 8, 0, 6, 5, 3, 7]",None,false,8.298204644999998
+SimulatedAnnealing,"[3, 4, 0, 5, 8, 2, 1, 7, 6]",None,false,8.378450647000022
+SimulatedAnnealing,"[6, 4, 5, 1, 0, 7, 8, 3, 2]",None,false,7.680478294000011
+SimulatedAnnealing,"[0, 3, 4, 5, 1, 2, 7, 8, 6]",None,false,8.134628878000001
+SimulatedAnnealing,"[8, 6, 4, 5, 0, 1, 2, 3, 7]",None,false,8.415968061000058
+SimulatedAnnealing,"[4, 8, 0, 5, 7, 6, 3, 2, 1]",None,false,8.465469966
+SimulatedAnnealing,"[8, 6, 7, 5, 0, 4, 3, 1, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,7.008319187999973
+SimulatedAnnealing,"[0, 1, 7, 6, 4, 8, 2, 3, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.660379535999937
+SimulatedAnnealing,"[2, 6, 4, 1, 0, 8, 5, 7, 3]",None,false,8.115107313000067
+SimulatedAnnealing,"[3, 5, 4, 1, 6, 7, 0, 8, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,7.43954347600004
+SimulatedAnnealing,"[4, 3, 0, 5, 8, 2, 6, 7, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,7.118294347000074
+SimulatedAnnealing,"[1, 2, 5, 4, 8, 7, 3, 6, 0]",None,false,8.432651090000036
+SimulatedAnnealing,"[4, 7, 2, 8, 0, 6, 5, 1, 3]",None,false,7.8123314140000275
+SimulatedAnnealing,"[0, 6, 1, 2, 5, 3, 4, 8, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.5381593970000722
+SimulatedAnnealing,"[2, 4, 0, 5, 6, 3, 8, 1, 7]",None,false,7.7502382180000495
+SimulatedAnnealing,"[1, 3, 8, 7, 5, 4, 6, 2, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.3747850889999427
+SimulatedAnnealing,"[7, 2, 1, 3, 8, 5, 0, 6, 4]",None,false,8.506548058000021
+SimulatedAnnealing,"[6, 2, 5, 1, 7, 4, 3, 8, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,7.405998557999965
+SimulatedAnnealing,"[1, 3, 2, 6, 7, 8, 0, 5, 4]",None,false,7.700241757999947
+SimulatedAnnealing,"[6, 2, 7, 4, 3, 1, 8, 5, 0]",None,false,7.56042913400006
+SimulatedAnnealing,"[2, 6, 3, 7, 5, 1, 8, 4, 0]",None,false,8.15073707299996
+SimulatedAnnealing,"[4, 3, 5, 7, 8, 2, 0, 1, 6]",None,false,8.073650848000057
+SimulatedAnnealing,"[0, 7, 8, 3, 5, 2, 4, 6, 1]",None,false,8.305023692999953
+SimulatedAnnealing,"[8, 2, 0, 3, 7, 1, 5, 4, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,7.946681037000076
+SimulatedAnnealing,"[2, 5, 0, 1, 8, 6, 4, 7, 3]",None,false,8.409634027000038
+SimulatedAnnealing,"[5, 2, 1, 7, 6, 3, 0, 4, 8]",None,false,8.29691281700002
+SimulatedAnnealing,"[3, 8, 0, 2, 7, 4, 1, 5, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.843648008000059
+SimulatedAnnealing,"[8, 3, 0, 1, 6, 5, 4, 7, 2]",None,false,7.978856145000009
+SimulatedAnnealing,"[1, 7, 6, 3, 0, 8, 2, 5, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.7884847259999788
+SimulatedAnnealing,"[8, 1, 7, 4, 2, 5, 6, 3, 0]",None,false,8.371187859999964
+SimulatedAnnealing,"[2, 7, 8, 4, 0, 5, 3, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,5.672602739000013
+SimulatedAnnealing,"[1, 8, 0, 7, 4, 3, 2, 5, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.818769165000049
+SimulatedAnnealing,"[2, 7, 6, 3, 5, 4, 1, 8, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.141289342999926
+SimulatedAnnealing,"[8, 3, 6, 1, 0, 4, 7, 2, 5]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.293788957000061
+SimulatedAnnealing,"[8, 1, 3, 6, 0, 4, 5, 7, 2]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,2.2535543980000057
+SimulatedAnnealing,"[8, 6, 2, 3, 5, 1, 0, 4, 7]",None,false,7.812176892000025
+SimulatedAnnealing,"[8, 4, 0, 1, 2, 5, 6, 3, 7]",None,false,7.85166045699998
+SimulatedAnnealing,"[1, 3, 0, 6, 8, 2, 4, 5, 7]",None,false,7.480796909999981
+SimulatedAnnealing,"[8, 4, 1, 5, 3, 7, 6, 2, 0]",None,false,7.623717716999977
+SimulatedAnnealing,"[0, 8, 3, 4, 7, 5, 2, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,5.843796443999963
+SimulatedAnnealing,"[0, 1, 3, 6, 5, 7, 8, 2, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.3102449350000143
+SimulatedAnnealing,"[2, 8, 3, 4, 0, 7, 5, 6, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.160727282000039
+SimulatedAnnealing,"[0, 3, 8, 4, 2, 5, 7, 1, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,0.440876473000003
+SimulatedAnnealing,"[2, 8, 6, 7, 0, 3, 5, 1, 4]",None,false,7.39245655600007
+SimulatedAnnealing,"[0, 1, 4, 7, 5, 6, 2, 3, 8]",None,false,7.828916198000002
+SimulatedAnnealing,"[6, 8, 3, 2, 5, 1, 0, 4, 7]",None,false,7.746926280000025
+SimulatedAnnealing,"[5, 1, 0, 3, 8, 6, 2, 7, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.077311749000046
+SimulatedAnnealing,"[2, 6, 4, 7, 0, 5, 3, 8, 1]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,4.299021025000002
+SimulatedAnnealing,"[2, 3, 1, 7, 0, 5, 4, 6, 8]",None,false,8.046775086000025
+SimulatedAnnealing,"[5, 2, 6, 7, 3, 1, 4, 8, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,1.5693883339999957
+SimulatedAnnealing,"[8, 7, 3, 2, 1, 5, 6, 4, 0]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",true,3.3935244750000493
+SimulatedAnnealing,"[3, 4, 8, 2, 0, 7, 6, 5, 1]",None,false,7.630421535999972
+SimulatedAnnealing,"[4, 1, 3, 2, 6, 7, 0, 5, 8]",None,false,7.811169979000056
+SimulatedAnnealing,"[5, 3, 0, 4, 1, 2, 7, 8, 6]",None,false,7.64064203099997
+SimulatedAnnealing,"[3, 1, 0, 2, 4, 8, 6, 5, 7]",None,false,7.977589667000075
+SteepestAscent,"[0, 3, 5, 2, 4, 6, 1, 7, 8]",None,false,7.556200000635727e-05
+SteepestAscent,"[0, 2, 3, 8, 7, 4, 6, 1, 5]",None,false,7.589900008042605e-05
+SteepestAscent,"[0, 6, 1, 2, 8, 7, 4, 5, 3]",None,false,1.722499996503757e-05
+SteepestAscent,"[0, 8, 2, 3, 4, 6, 7, 1, 5]",None,false,9.924599999067141e-05
+SteepestAscent,"[0, 1, 2, 3, 4, 7, 5, 6, 8]",None,false,6.590200007394742e-05
+SteepestAscent,"[0, 2, 8, 4, 5, 7, 1, 3, 6]",None,false,6.837599994469201e-05
+SteepestAscent,"[0, 4, 2, 8, 1, 5, 7, 3, 6]",None,false,5.946599992512347e-05
+SteepestAscent,"[0, 6, 5, 3, 2, 1, 4, 7, 8]",None,false,0.00011291700002402649
+SteepestAscent,"[0, 8, 5, 7, 4, 1, 6, 3, 2]",None,false,6.717099995512399e-05
+SteepestAscent,"[0, 6, 5, 4, 1, 3, 7, 2, 8]",None,false,7.001299991316046e-05
+SteepestAscent,"[0, 6, 8, 2, 4, 7, 5, 3, 1]",None,false,3.0004999985067116e-05
+SteepestAscent,"[0, 1, 6, 4, 2, 3, 5, 7, 8]",None,false,9.937400000126217e-05
+SteepestAscent,"[0, 1, 3, 7, 5, 2, 4, 8, 6]",None,false,6.282200001805904e-05
+SteepestAscent,"[0, 8, 6, 4, 7, 3, 2, 1, 5]",None,false,6.7796000053022e-05
+SteepestAscent,"[0, 3, 5, 7, 1, 4, 2, 6, 8]",None,false,1.6622999964965857e-05
+SteepestAscent,"[0, 2, 6, 4, 8, 5, 3, 1, 7]",None,false,0.00013849000004029222
+SteepestAscent,"[0, 4, 3, 8, 5, 6, 2, 7, 1]",None,false,6.876600002669875e-05
+SteepestAscent,"[0, 8, 6, 3, 5, 7, 4, 1, 2]",None,false,6.466999991516786e-05
+SteepestAscent,"[0, 8, 3, 6, 4, 1, 2, 7, 5]",None,false,5.670300004112505e-05
+SteepestAscent,"[0, 5, 7, 2, 8, 6, 3, 1, 4]",None,false,8.762200002365717e-05
+SteepestAscent,"[0, 5, 7, 6, 2, 8, 3, 1, 4]",None,false,7.235499992930272e-05
+SteepestAscent,"[0, 8, 3, 7, 4, 6, 2, 1, 5]",None,false,7.577899998523208e-05
+SteepestAscent,"[0, 1, 4, 2, 6, 5, 8, 7, 3]",None,false,1.7711999930725142e-05
+SteepestAscent,"[0, 8, 2, 3, 4, 1, 7, 5, 6]",None,false,6.036600007064408e-05
+SteepestAscent,"[0, 5, 2, 1, 7, 4, 3, 8, 6]",None,false,9.402599994245975e-05
+SteepestAscent,"[0, 5, 3, 8, 1, 6, 7, 4, 2]",None,false,9.615600004053704e-05
+SteepestAscent,"[0, 6, 4, 7, 8, 5, 2, 1, 3]",None,false,6.0312000073281524e-05
+SteepestAscent,"[0, 2, 4, 3, 6, 1, 7, 8, 5]",None,false,7.59580000249116e-05
+SteepestAscent,"[0, 6, 8, 4, 7, 5, 2, 1, 3]",None,false,6.0095999970144476e-05
+SteepestAscent,"[0, 5, 4, 2, 6, 3, 7, 1, 8]",None,false,1.6458999994029e-05
+SteepestAscent,"[0, 7, 4, 2, 5, 8, 3, 1, 6]",None,false,7.444499999564869e-05
+SteepestAscent,"[0, 7, 3, 4, 1, 2, 8, 5, 6]",None,false,1.674399993589759e-05
+SteepestAscent,"[0, 1, 3, 6, 7, 5, 4, 2, 8]",None,false,6.894099999499304e-05
+SteepestAscent,"[0, 4, 1, 6, 5, 8, 3, 2, 7]",None,false,6.006699993577058e-05
+SteepestAscent,"[0, 4, 5, 1, 3, 6, 8, 2, 7]",None,false,6.0141000062685634e-05
+SteepestAscent,"[0, 2, 7, 8, 1, 5, 3, 6, 4]",None,false,6.774099995254801e-05
+SteepestAscent,"[0, 1, 5, 2, 6, 8, 4, 7, 3]",None,false,9.995100003834523e-05
+SteepestAscent,"[0, 5, 8, 3, 7, 2, 4, 1, 6]",None,false,6.84379999711382e-05
+SteepestAscent,"[0, 6, 1, 5, 3, 4, 7, 8, 2]",None,false,5.4693000038241735e-05
+SteepestAscent,"[0, 8, 5, 2, 7, 6, 1, 4, 3]",None,false,6.22060000523561e-05
+SteepestAscent,"[0, 7, 3, 6, 4, 1, 5, 8, 2]",None,false,5.474199997479445e-05
+SteepestAscent,"[0, 3, 5, 7, 2, 8, 4, 1, 6]",None,false,5.4694000027666334e-05
+SteepestAscent,"[0, 4, 8, 3, 7, 5, 1, 6, 2]",None,false,5.432699992979906e-05
+SteepestAscent,"[0, 1, 6, 2, 4, 3, 7, 5, 8]",None,false,6.209100001797196e-05
+SteepestAscent,"[0, 4, 6, 3, 8, 2, 5, 7, 1]",None,false,5.491899992193794e-05
+SteepestAscent,"[0, 2, 4, 1, 8, 6, 5, 3, 7]",None,false,6.236599995190772e-05
+SteepestAscent,"[0, 3, 4, 5, 8, 2, 1, 7, 6]",None,false,5.462100000386272e-05
+SteepestAscent,"[0, 4, 5, 6, 1, 7, 8, 3, 2]",None,false,6.369999994149111e-05
+SteepestAscent,"[0, 3, 4, 5, 1, 2, 7, 8, 6]",None,false,1.6769000012573088e-05
+SteepestAscent,"[0, 6, 4, 8, 5, 1, 2, 3, 7]",None,false,6.238799994662259e-05
+SteepestAscent,"[0, 4, 8, 5, 7, 6, 3, 2, 1]",None,false,5.469999996421393e-05
+SteepestAscent,"[0, 6, 7, 8, 5, 4, 3, 1, 2]",None,false,6.236399997305853e-05
+SteepestAscent,"[0, 1, 7, 6, 4, 8, 2, 3, 5]",None,false,1.6486999925291457e-05
+SteepestAscent,"[0, 6, 4, 2, 1, 8, 5, 7, 3]",None,false,6.374100007633388e-05
+SteepestAscent,"[0, 5, 4, 3, 6, 7, 1, 8, 2]",None,false,5.499600001712679e-05
+SteepestAscent,"[0, 4, 3, 5, 8, 2, 6, 7, 1]",None,false,5.447499995625549e-05
+SteepestAscent,"[0, 2, 5, 1, 4, 8, 3, 6, 7]",None,false,0.000100160999977561
+SteepestAscent,"[0, 7, 2, 4, 8, 6, 5, 1, 3]",None,false,6.202999998095038e-05
+SteepestAscent,"[0, 6, 1, 2, 5, 3, 4, 8, 7]",None,false,1.6649000031065952e-05
+SteepestAscent,"[0, 2, 4, 5, 6, 3, 8, 1, 7]",None,false,6.92109999818058e-05
+SteepestAscent,"[0, 3, 8, 1, 7, 4, 6, 5, 2]",None,false,0.00010128299993539258
+SteepestAscent,"[0, 2, 1, 7, 8, 5, 3, 6, 4]",None,false,5.591700005425082e-05
+SteepestAscent,"[0, 2, 5, 6, 1, 4, 3, 7, 8]",None,false,9.865499998795713e-05
+SteepestAscent,"[0, 3, 2, 1, 7, 8, 6, 5, 4]",None,false,5.491499996423954e-05
+SteepestAscent,"[0, 2, 7, 6, 3, 1, 4, 8, 5]",None,false,9.113400005844596e-05
+SteepestAscent,"[0, 6, 3, 2, 5, 1, 7, 8, 4]",None,false,9.123600000293663e-05
+SteepestAscent,"[0, 3, 5, 4, 8, 2, 7, 1, 6]",None,false,5.357100008041016e-05
+SteepestAscent,"[0, 7, 8, 3, 5, 2, 4, 6, 1]",None,false,1.6372000004594156e-05
+SteepestAscent,"[0, 8, 2, 3, 7, 1, 5, 4, 6]",None,false,5.4260000069916714e-05
+SteepestAscent,"[0, 2, 5, 1, 8, 6, 4, 7, 3]",None,false,5.4718000001230394e-05
+SteepestAscent,"[0, 2, 1, 5, 6, 3, 7, 4, 8]",None,false,5.475800003296172e-05
+SteepestAscent,"[0, 3, 8, 2, 7, 4, 1, 5, 6]",None,false,5.4590999980064225e-05
+SteepestAscent,"[0, 8, 3, 1, 6, 5, 4, 7, 2]",None,false,5.4203999980018125e-05
+SteepestAscent,"[0, 1, 6, 3, 7, 8, 2, 5, 4]",None,false,6.230600001799758e-05
+SteepestAscent,"[0, 1, 7, 8, 2, 5, 4, 6, 3]",None,false,9.657400005380623e-05
+SteepestAscent,"[0, 7, 8, 2, 4, 5, 3, 1, 6]",None,false,6.208599995716213e-05
+SteepestAscent,"[0, 1, 8, 7, 4, 3, 2, 5, 6]",None,false,5.3915000080451136e-05
+SteepestAscent,"[0, 7, 6, 2, 5, 4, 3, 1, 8]",None,false,9.214800002155243e-05
+SteepestAscent,"[0, 3, 6, 8, 1, 4, 7, 2, 5]",None,false,6.121499995970225e-05
+SteepestAscent,"[0, 1, 3, 8, 6, 4, 5, 7, 2]",None,false,6.099300003370445e-05
+SteepestAscent,"[0, 6, 2, 8, 5, 1, 3, 4, 7]",None,false,5.560700003570673e-05
+SteepestAscent,"[0, 8, 4, 1, 2, 5, 6, 3, 7]",None,false,5.461000000650529e-05
+SteepestAscent,"[0, 1, 3, 6, 8, 2, 4, 5, 7]",None,false,5.463800005145458e-05
+SteepestAscent,"[0, 4, 1, 8, 3, 7, 5, 6, 2]",None,false,9.753199992701411e-05
+SteepestAscent,"[0, 8, 3, 4, 7, 5, 2, 1, 6]",None,false,1.65759998935755e-05
+SteepestAscent,"[0, 1, 3, 6, 5, 7, 8, 2, 4]",None,false,1.6540000046916248e-05
+SteepestAscent,"[0, 8, 3, 2, 4, 7, 5, 6, 1]",None,false,6.153699996502837e-05
+SteepestAscent,"[0, 3, 8, 4, 2, 5, 7, 1, 6]",None,false,1.6501000004609523e-05
+SteepestAscent,"[0, 8, 6, 2, 7, 3, 5, 1, 4]",None,false,6.112000005487062e-05
+SteepestAscent,"[0, 1, 4, 7, 5, 6, 2, 3, 8]",None,false,1.6612999957033026e-05
+SteepestAscent,"[0, 8, 3, 6, 5, 1, 2, 4, 7]",None,false,5.426100005934131e-05
+SteepestAscent,"[0, 5, 1, 3, 8, 6, 2, 7, 4]",None,false,5.3985000022294116e-05
+SteepestAscent,"[0, 6, 4, 2, 7, 5, 3, 8, 1]",None,false,6.138300000202435e-05
+SteepestAscent,"[0, 3, 1, 2, 7, 5, 4, 6, 8]",None,false,6.13250000469634e-05
+SteepestAscent,"[0, 2, 6, 5, 3, 1, 7, 4, 8]",None,false,9.245900002952112e-05
+SteepestAscent,"[0, 8, 7, 2, 1, 3, 6, 4, 5]",None,false,0.00013513400006104348
+SteepestAscent,"[0, 3, 8, 2, 4, 7, 6, 5, 1]",None,false,6.382900005519332e-05
+SteepestAscent,"[4, 1, 3, 2, 6, 7, 0, 5, 8]",None,false,1.708499996766477e-05
+SteepestAscent,"[0, 5, 3, 4, 1, 2, 7, 8, 6]",None,false,5.447099999855709e-05
+SteepestAscent,"[0, 3, 1, 2, 4, 8, 6, 5, 7]",None,false,5.441500002234534e-05
+FirstChoice,"[0, 3, 5, 2, 4, 6, 1, 7, 8]",None,false,0.002704085999994277
+FirstChoice,"[0, 2, 3, 8, 7, 4, 6, 1, 5]",None,false,0.002748098999973081
+FirstChoice,"[0, 6, 1, 2, 8, 7, 4, 5, 3]",None,false,0.002713571999947817
+FirstChoice,"[0, 8, 2, 3, 4, 6, 7, 1, 5]",None,false,0.002688163000016175
+FirstChoice,"[0, 1, 2, 3, 4, 7, 5, 6, 8]",None,false,0.0027091189999737253
+FirstChoice,"[0, 2, 8, 4, 5, 7, 1, 3, 6]",None,false,0.002692826000043169
+FirstChoice,"[0, 4, 2, 8, 1, 5, 7, 3, 6]",None,false,0.002666746999921088
+FirstChoice,"[0, 6, 5, 3, 2, 1, 4, 7, 8]",None,false,0.0027916010000126334
+FirstChoice,"[0, 8, 5, 7, 4, 1, 6, 3, 2]",None,false,0.0027020109999966735
+FirstChoice,"[0, 6, 5, 4, 1, 3, 7, 2, 8]",None,false,0.0026775630000202
+FirstChoice,"[0, 6, 8, 2, 4, 7, 5, 3, 1]",None,false,0.002696405999927265
+FirstChoice,"[0, 1, 6, 4, 2, 3, 5, 7, 8]",None,false,0.0026849240000501595
+FirstChoice,"[0, 1, 3, 7, 5, 2, 4, 8, 6]",None,false,0.0026998820000017076
+FirstChoice,"[0, 8, 6, 4, 7, 3, 2, 1, 5]",None,false,0.002670867000006183
+FirstChoice,"[0, 3, 5, 7, 1, 4, 2, 6, 8]",None,false,0.0026900350000005346
+FirstChoice,"[0, 2, 6, 4, 8, 5, 3, 1, 7]",None,false,0.002778372999955536
+FirstChoice,"[0, 4, 3, 8, 5, 6, 2, 7, 1]",None,false,0.0026836010000579336
+FirstChoice,"[0, 8, 6, 3, 5, 7, 4, 1, 2]",None,false,0.0027165100000274833
+FirstChoice,"[0, 8, 3, 6, 4, 1, 2, 7, 5]",None,false,0.002728738999962843
+FirstChoice,"[0, 5, 7, 2, 8, 6, 3, 1, 4]",None,false,0.0027104539999527333
+FirstChoice,"[0, 5, 7, 6, 2, 8, 3, 1, 4]",None,false,0.002715205000072274
+FirstChoice,"[0, 8, 3, 7, 4, 6, 2, 1, 5]",None,false,0.0027142970000113564
+FirstChoice,"[0, 1, 4, 2, 6, 5, 8, 7, 3]",None,false,0.0027172050000672243
+FirstChoice,"[0, 8, 2, 3, 4, 1, 7, 5, 6]",None,false,0.002718612999956349
+FirstChoice,"[0, 5, 2, 1, 7, 4, 3, 8, 6]",None,false,0.0026891889999660634
+FirstChoice,"[0, 5, 3, 8, 1, 6, 7, 4, 2]",None,false,0.002690231000087806
+FirstChoice,"[0, 6, 4, 7, 8, 5, 2, 1, 3]",None,false,0.002867547000050763
+FirstChoice,"[0, 2, 4, 3, 6, 1, 7, 8, 5]",None,false,0.0028614290000632536
+FirstChoice,"[0, 6, 8, 4, 7, 5, 2, 1, 3]",None,false,0.0026862669999445643
+FirstChoice,"[0, 5, 4, 2, 6, 3, 7, 1, 8]",None,false,0.0026852000000872067
+FirstChoice,"[0, 7, 4, 2, 5, 8, 3, 1, 6]",None,false,0.0026993679999804954
+FirstChoice,"[0, 7, 3, 4, 1, 2, 8, 5, 6]",None,false,0.0027473779999809267
+FirstChoice,"[0, 1, 3, 6, 7, 5, 4, 2, 8]",None,false,0.0027271479999626536
+FirstChoice,"[0, 4, 1, 6, 5, 8, 3, 2, 7]",None,false,0.002738915999998426
+FirstChoice,"[0, 4, 5, 1, 3, 6, 8, 2, 7]",None,false,0.0026774029998932747
+FirstChoice,"[0, 2, 7, 8, 1, 5, 3, 6, 4]",None,false,0.0026983409999274954
+FirstChoice,"[0, 1, 5, 2, 6, 8, 4, 7, 3]",None,false,0.0026900569999952495
+FirstChoice,"[0, 5, 8, 3, 7, 2, 4, 1, 6]",None,false,0.0027626490000329795
+FirstChoice,"[0, 6, 1, 5, 3, 4, 7, 8, 2]",None,false,0.0027160600000115664
+FirstChoice,"[0, 8, 5, 2, 7, 6, 1, 4, 3]",None,false,0.002686003000007986
+FirstChoice,"[0, 7, 3, 6, 4, 1, 5, 8, 2]",None,false,0.0028731669999615406
+FirstChoice,"[0, 3, 5, 7, 2, 8, 4, 1, 6]",None,false,0.0027350970000270536
+FirstChoice,"[0, 4, 8, 3, 7, 5, 1, 6, 2]",None,false,0.0027047959999890736
+FirstChoice,"[0, 1, 6, 2, 4, 3, 7, 5, 8]",None,false,0.0027247599999782324
+FirstChoice,"[0, 4, 6, 3, 8, 2, 5, 7, 1]",None,false,0.0026946380000936188
+FirstChoice,"[0, 2, 4, 1, 8, 6, 5, 3, 7]",None,false,0.0027110380000294754
+FirstChoice,"[0, 3, 4, 5, 8, 2, 1, 7, 6]",None,false,0.002710358000058477
+FirstChoice,"[0, 4, 5, 6, 1, 7, 8, 3, 2]",None,false,0.002700378999975328
+FirstChoice,"[0, 3, 4, 5, 1, 2, 7, 8, 6]",None,false,0.002675393000004078
+FirstChoice,"[0, 6, 4, 8, 5, 1, 2, 3, 7]",None,false,0.002657486999964931
+FirstChoice,"[0, 4, 8, 5, 7, 6, 3, 2, 1]",None,false,0.0026878170000372847
+FirstChoice,"[0, 6, 7, 8, 5, 4, 3, 1, 2]",None,false,0.002817336000020987
+FirstChoice,"[0, 1, 7, 6, 4, 8, 2, 3, 5]",None,false,0.0026609629999256867
+FirstChoice,"[0, 6, 4, 2, 1, 8, 5, 7, 3]",None,false,0.0026976890000014464
+FirstChoice,"[0, 5, 4, 3, 6, 7, 1, 8, 2]",None,false,0.002746353000020463
+FirstChoice,"[0, 4, 3, 5, 8, 2, 6, 7, 1]",None,false,0.00273754900001677
+FirstChoice,"[0, 2, 5, 1, 4, 8, 3, 6, 7]",None,false,0.002710966999984521
+FirstChoice,"[0, 7, 2, 4, 8, 6, 5, 1, 3]",None,false,0.0026881500000399683
+FirstChoice,"[0, 6, 1, 2, 5, 3, 4, 8, 7]",None,false,0.0027272129999573735
+FirstChoice,"[0, 2, 4, 5, 6, 3, 8, 1, 7]",None,false,0.0026918899999373025
+FirstChoice,"[0, 3, 8, 1, 7, 4, 6, 5, 2]",None,false,0.0027877019999777986
+FirstChoice,"[0, 2, 1, 7, 8, 5, 3, 6, 4]",None,false,0.002662303999954929
+FirstChoice,"[0, 2, 5, 6, 1, 4, 3, 7, 8]",None,false,0.0027406000000382846
+FirstChoice,"[0, 3, 2, 1, 7, 8, 6, 5, 4]",None,false,0.0027041829999916445
+FirstChoice,"[0, 2, 7, 6, 3, 1, 4, 8, 5]",None,false,0.0026777760000413764
+FirstChoice,"[0, 6, 3, 2, 5, 1, 7, 8, 4]",None,false,0.0027380149999771675
+FirstChoice,"[0, 3, 5, 4, 8, 2, 7, 1, 6]",None,false,0.002678236000065226
+FirstChoice,"[0, 7, 8, 3, 5, 2, 4, 6, 1]",None,false,0.002737702999979774
+FirstChoice,"[0, 8, 2, 3, 7, 1, 5, 4, 6]",None,false,0.0028524680000145963
+FirstChoice,"[0, 2, 5, 1, 8, 6, 4, 7, 3]",None,false,0.0026784469999938665
+FirstChoice,"[0, 2, 1, 5, 6, 3, 7, 4, 8]",None,false,0.0027357110000139073
+FirstChoice,"[0, 3, 8, 2, 7, 4, 1, 5, 6]",None,false,0.0026825500000313696
+FirstChoice,"[0, 8, 3, 1, 6, 5, 4, 7, 2]",None,false,0.002673459999982697
+FirstChoice,"[0, 1, 6, 3, 7, 8, 2, 5, 4]",None,false,0.002848401000051126
+FirstChoice,"[0, 1, 7, 8, 2, 5, 4, 6, 3]",None,false,0.002727697999944212
+FirstChoice,"[0, 7, 8, 2, 4, 5, 3, 1, 6]",None,false,0.0028604620000578507
+FirstChoice,"[0, 1, 8, 7, 4, 3, 2, 5, 6]",None,false,0.002670867000006183
+FirstChoice,"[0, 7, 6, 2, 5, 4, 3, 1, 8]",None,false,0.002665579999984402
+FirstChoice,"[0, 3, 6, 8, 1, 4, 7, 2, 5]",None,false,0.00268404799999189
+FirstChoice,"[0, 1, 3, 8, 6, 4, 5, 7, 2]",None,false,0.002654639000070347
+FirstChoice,"[0, 6, 2, 8, 5, 1, 3, 4, 7]",None,false,0.002725422000025901
+FirstChoice,"[0, 8, 4, 1, 2, 5, 6, 3, 7]",None,false,0.0027485949999572767
+FirstChoice,"[0, 1, 3, 6, 8, 2, 4, 5, 7]",None,false,0.002706042999989222
+FirstChoice,"[0, 4, 1, 8, 3, 7, 5, 6, 2]",None,false,0.002678450000075827
+FirstChoice,"[0, 8, 3, 4, 7, 5, 2, 1, 6]",None,false,0.0026770419999593287
+FirstChoice,"[0, 1, 3, 6, 5, 7, 8, 2, 4]",None,false,0.002703698000004806
+FirstChoice,"[0, 8, 3, 2, 4, 7, 5, 6, 1]",None,false,0.002634350999983326
+FirstChoice,"[0, 3, 8, 4, 2, 5, 7, 1, 6]",None,false,0.002674931999990804
+FirstChoice,"[0, 8, 6, 2, 7, 3, 5, 1, 4]",None,false,0.0027409830000806323
+FirstChoice,"[0, 1, 4, 7, 5, 6, 2, 3, 8]",None,false,0.002741219999961686
+FirstChoice,"[0, 8, 3, 6, 5, 1, 2, 4, 7]",None,false,0.0027578269999821714
+FirstChoice,"[0, 5, 1, 3, 8, 6, 2, 7, 4]",None,false,0.0027263519999678465
+FirstChoice,"[0, 6, 4, 2, 7, 5, 3, 8, 1]",None,false,0.0027281889999812847
+FirstChoice,"[0, 3, 1, 2, 7, 5, 4, 6, 8]",None,false,0.0027444820000255277
+FirstChoice,"[0, 2, 6, 5, 3, 1, 7, 4, 8]",None,false,0.0026945449999402626
+FirstChoice,"[0, 8, 7, 2, 1, 3, 6, 4, 5]",None,false,0.002693271999987701
+FirstChoice,"[0, 3, 8, 2, 4, 7, 6, 5, 1]",None,false,0.0026917500000536165
+FirstChoice,"[4, 1, 3, 2, 6, 7, 0, 5, 8]",None,false,0.0027857059999405465
+FirstChoice,"[0, 5, 3, 4, 1, 2, 7, 8, 6]",None,false,0.0026344910000943855
+FirstChoice,"[0, 3, 1, 2, 4, 8, 6, 5, 7]",None,false,0.0027851020000753124
